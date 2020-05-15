@@ -26,8 +26,10 @@ export type User = {
 export type UserState = {
   list: User[];
   error?: any;
+  userIndex?: number;
 };
 
 export type State = {
   users: UserState;
+  
 };
